@@ -1,0 +1,43 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!-- Customize your theme here. -->
+    </style>
+    
+    <style name="AppTheme" parent="AppBaseTheme">
+        
+
+        <item name="android:windowBackground">#ffb62a23</item>
+        
+        android:fontFamily="sans-serif"
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+    
+    <style name="TextView1">
+
+        <item name="android:textSize">50sp</item>
+        <item name="android:textStyle">bold</item>
+
+
+
+    </style>
+    
+    <style name="EditText" parent="@style/TextView1">
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textStyle">normal</item>
+        
+        
+        
+    </style>
+
+    <style name="TextView1.Textview2">
+        <item name="android:textColor">#ffff55</item>
+        <item name="android:textStyle">normal</item>
+
+    </style>
+        
+        
+    
+
+</resources>
